@@ -10,8 +10,8 @@ const questions = () => {
       type: "input",
       name: "github",
       message: "Enter your GitHub Username (Required)",
-      validate: (githubInput) => {
-        if (githubInput) {
+      validate: (github) => {
+        if (github) {
           return true;
         } else {
           console.log("Please enter your GitHub username!");
@@ -21,10 +21,10 @@ const questions = () => {
     },
     {
       type: "input",
-      name: "Project Title",
+      name: "title",
       message: "What is the title of your project? (Required)",
-      validate: (projectTitleInput) => {
-        if (projectTitleInput) {
+      validate: (title) => {
+        if (title) {
           return true;
         } else {
           console.log("Please enter the title of your project!");
@@ -34,37 +34,32 @@ const questions = () => {
     },
     {
       type: "input",
-      name: "Project Description",
+      name: "description",
       message: "Please describe your project in detail.",
     },
     {
       type: "input",
-      name: "Table of Contents",
-      message: "Please enter your Table of Contents.",
-    },
-    {
-      type: "input",
-      name: "Installation",
+      name: "installation",
       message: "Please describe the installation process.",
     },
     {
       type: "input",
-      name: "License",
+      name: "license",
       message: "Please list any licenses used.",
     },
     {
       type: "input",
-      name: "Contributors",
+      name: "contributors",
       message: "Please list any ourside contributors.",
     },
     {
       type: "input",
-      name: "Tests",
+      name: "tests",
       message: "Please describe any tests that have been run.",
     },
     {
       type: "input",
-      name: "Questions",
+      name: "questions",
       message: "Enter question section here.",
     },
   ]);
