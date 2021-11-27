@@ -1,57 +1,41 @@
-# Professional README Generator
 
-When creating an open source project on GitHub, it’s important to have a high-quality README for the app. This should include what the app is for, how to use the app, how to install it, how to report issues, and how to make contributions—this last part increases the likelihood that other developers will contribute to the success of the project.
+  
+  # Professional README.md Generator
 
-You can quickly and easily generate a README file by using a command-line application to generate one. This allows the project creator to devote more time working on the project.
+  ## Table of Contents
+  * [Description] (#description)
+  * [Installation] (#installation)
+  * [License] (#license)
+  * [Contributors] (#contributors)
+  * [Testing] (#tests)
+  * [Languages] (#languages)
+  * [Contact] (#contact)
+  
+  <a name='description'></a>
+  ## Description
+  # This is a professional readme generator
 
-Your task is to create a command-line application that dynamically generates a professional README.md file from a user's input using the Inquirer package (Links to an external site.). Review the Guide to a Professional README (Links to an external site.) as a reminder of everything that a high-quality, professional README should contain.
+  <a name='installation'></a>
+  ## Installation
+  # Difficult
 
-# User Story
+  <a name='license'></a>
+  ## License
+  # MIT
+  
 
-AS A developer
-I WANT a README generator
-SO THAT I can quickly create a professional README for a new project
+  <a name='contributors'></a>
+  ## Contributors
+  # ME
 
-# Acceptance Criteria
+  <a name='testing'></a>
+  ## Testing
+  # A million
 
-GIVEN a command-line application that accepts user input
-WHEN I am prompted for information about my application repository
-THEN a high-quality, professional README.md is generated with the title of my project and sections entitled Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions
-WHEN I enter my project title
-THEN this is displayed as the title of the README
-WHEN I enter a description, installation instructions, usage information, contribution guidelines, and test instructions
-THEN this information is added to the sections of the README entitled Description, Installation, Usage, Contributing, and Tests
-WHEN I choose a license for my application from a list of options
-THEN a badge for that license is added near the top of the README and a notice is added to the section of the README entitled License that explains which license the application is covered under
-WHEN I enter my GitHub username
-THEN this is added to the section of the README entitled Questions, with a link to my GitHub profile
-WHEN I enter my email address
-THEN this is added to the section of the README entitled Questions, with instructions on how to reach me with additional questions
-WHEN I click on the links in the Table of Contents
-THEN I am taken to the corresponding section of the README
+   <a name='languages'></a>
+  ## Languages
+  # 
 
-# README Generator Features:
-
-1. Search a city name for the current/5-day date, an icon representation of weather conditions, the temperature, the humidity, the wind speed, and the UV index.
-2. The UV index is presented by color that indicates whether the conditions are favorable, moderate, or severe.
-3. Up to 8 past city searches are stored in order to create quick search links.
-
-# README Generator Screen Shots
-
-- **Main Screen:**
-  ![Weather Dashboard Start Screen](https://github.com/Ldeguzman9/weather-dashboard/blob/feature/readme/assets/images/Start%20Screen.png?raw=true)
-- **README File**
-  ![Weather Dashboard](https://github.com/Ldeguzman9/weather-dashboard/blob/feature/readme/assets/images/Weather%20Dashboard.png?raw=true)
-
-# Technical Skills
-
-- HTML
-- CSS
-- Javascript
-- Saving to local storage
-- Jquery / Bootstrap
-- Serverside API
-
-# Video Demonstration
-
-[How to create a Professional README](./readme-guide.md)
+  <a name='contact'></a>
+  ## Contact
+  # lauren.a.deguzman@gmail.com
