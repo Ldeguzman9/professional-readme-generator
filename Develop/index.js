@@ -1,7 +1,8 @@
 // Packages needed for this application
 const inquirer = require("inquirer");
 const fs = require("fs");
-const generateMarkdown = require("./utils/generateMarkdown");
+const generateMarkdown = require("./utils/generateMarkdown.js");
+//const path = require("path");
 
 // Array of questions for user input
 const questions = () => {
@@ -12,6 +13,19 @@ const questions = () => {
       message: "Enter your GitHub Username (Required)",
       validate: (github) => {
         if (github) {
+          return true;
+        } else {
+          console.log("Please enter your GitHub username!");
+          return false;
+        }
+      },
+    },
+    {
+      type: "input",
+      name: "githubRepo",
+      message: "Please enter the name of your project repository.",
+      validate: (githubRepo) => {
+        if (githubRepo) {
           return true;
         } else {
           console.log("Please enter your GitHub username!");
@@ -50,7 +64,7 @@ const questions = () => {
     {
       type: "input",
       name: "contributors",
-      message: "Please list any ourside contributors.",
+      message: "Please list any outside contributors.",
     },
     {
       type: "input",
@@ -58,9 +72,23 @@ const questions = () => {
       message: "Please describe any tests that have been run.",
     },
     {
+      type: "checkbox",
+      name: "languages",
+      message: "What did you this project with? (Check all that apply)",
+      choices: [
+        "JavaScript",
+        "HTML",
+        "CSS",
+        "ES6",
+        "jQuery",
+        "Bootstrap",
+        "Node",
+      ],
+    },
+    {
       type: "input",
-      name: "questions",
-      message: "Enter question section here.",
+      name: "contact",
+      message: "Please enter the best email to contact you.",
     },
   ]);
 };
@@ -70,7 +98,7 @@ function writeToFile(fileName, data) {
   fs.writeFile(fileName, data, (err) => {
     if (err) throw new Error(err);
 
-    console.log("README complete! Check out README.md to see the output!");
+    console.log("README.md complete! Check out README.md to see the output!");
   });
 }
 
