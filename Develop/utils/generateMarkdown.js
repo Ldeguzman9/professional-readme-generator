@@ -22,9 +22,26 @@ function generateMarkdown(data) {
   * [License] (#license)
   * [Contributors] (#contributors)
   * [Testing] (#tests)
-  * [Questions] (#questions)
+  * [Contact] (#contact)
+  * 
   
-  
+  ## Description
+  # ${data.description}
+
+  ## Installation
+  # ${data.installation}
+
+  ## License
+  # ${data.license}
+
+  ## Contributors
+  # ${data.contributors}
+
+  ## Testing
+  # ${data.tests}
+
+  ## Contact
+  # ${data.contact}
 `;
 }
 
