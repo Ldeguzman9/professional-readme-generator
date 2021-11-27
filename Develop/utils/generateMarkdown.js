@@ -25,21 +25,27 @@ function generateMarkdown(data) {
   * [Contact] (#contact)
   * 
   
+  <a name='description'></a>
   ## Description
   # ${data.description}
 
+  <a name='installation'></a>
   ## Installation
   # ${data.installation}
 
+  <a name='license'></a>
   ## License
   # ${data.license}
 
+  <a name='contributors'></a>
   ## Contributors
   # ${data.contributors}
 
+  <a name='testing'></a>
   ## Testing
   # ${data.tests}
 
+  <a name='contact'></a>
   ## Contact
   # ${data.contact}
 `;
