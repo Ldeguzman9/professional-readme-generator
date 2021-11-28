@@ -1,7 +1,7 @@
 
   
-  # Professional ReadME Genrator
-     ![License](https://img.shields.io/badge/License-MIT-red)
+  # ds
+  ![License](https://img.shields.io/badge/License-MIT-ds)
 
   ## Table of Contents
   * [Description] (#description)
@@ -12,13 +12,13 @@
   * [Languages] (#languages)
   * [Contact] (#contact)
   
-  <a name='#description'></a>
+  <div id='description'/>
   ## Description
-  blue
+  ds
 
   <a name='installation'></a>
   ## Installation
-  blue
+  ds
 
   <a name='license'></a>
   ## License
@@ -27,16 +27,18 @@
 
   <a name='contributors'></a>
   ## Contributors
-  n
+  ds
 
   <a name='testing'></a>
   ## Testing
-  n
+  ds
 
    <a name='languages'></a>
   ## Languages
-  JavaScript
+  
 
   <a name='contact'></a>
   ## Contact
-  lauren.a.deguzman@gmail.com
+  https://github.com/ldeguamn
+  If you have any questions or would like to get in contact please email me at: ds.
+

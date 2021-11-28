@@ -14,7 +14,7 @@ function generateMarkdown(data) {
   * [Languages] (#languages)
   * [Contact] (#contact)
   
-  <a name='#description'></a>
+  <div id='description'/>
   ## Description
   ${data.description}
 
@@ -41,7 +41,9 @@ function generateMarkdown(data) {
 
   <a name='contact'></a>
   ## Contact
-  ${data.contact}
+  https://github.com/${data.github}
+  If you have any questions or would like to get in contact please email me at: ${data.contact}.
+
 `;
 }
 

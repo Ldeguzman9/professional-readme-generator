@@ -55,9 +55,16 @@ const questions = [
     message: "Please describe the installation process.",
   },
   {
-    type: "input",
+    type: "list",
     name: "license",
-    message: "Please list any licenses used.",
+    message: "Please select any licenses used.",
+    choices: [
+      "MIT",
+      "Apache_2.0",
+      "Boost_1.0",
+      "BSD_3--Clause",
+      "BSD_2--Clause",
+    ],
   },
   {
     type: "input",
