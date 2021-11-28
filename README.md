@@ -1,6 +1,7 @@
 
   
-  # Professional README.md Generator
+  # Professional ReadME Genrator
+     ![License](https://img.shields.io/badge/License-MIT-red)
 
   ## Table of Contents
   * [Description] (#description)
@@ -11,31 +12,31 @@
   * [Languages] (#languages)
   * [Contact] (#contact)
   
-  <a name='description'></a>
+  <a name='#description'></a>
   ## Description
-  # This is a professional readme generator
+  blue
 
   <a name='installation'></a>
   ## Installation
-  # Difficult
+  blue
 
   <a name='license'></a>
   ## License
-  # MIT
+  MIT
   
 
   <a name='contributors'></a>
   ## Contributors
-  # ME
+  n
 
   <a name='testing'></a>
   ## Testing
-  # A million
+  n
 
    <a name='languages'></a>
   ## Languages
-  # 
+  JavaScript
 
   <a name='contact'></a>
   ## Contact
-  # lauren.a.deguzman@gmail.com
+  lauren.a.deguzman@gmail.com

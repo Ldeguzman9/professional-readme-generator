@@ -1,21 +1,9 @@
-// Function that returns a license badge and license link based on which license is passed in
-// If there is no license, return an empty string
-// function renderLicenseBadge(license) {
-//   if (license === ok) {
-//     return `
-//     ![License](https://img.shields.io/badge/License-${data.license}-red)
-//     (https://img.shields.io/github/license/${github}/${githubRepo})
-//     `;
-//   } else {
-//     return `""`;
-//   }
-// }
-
 // Function to generate markdown for README
 function generateMarkdown(data) {
   return `
   
   # ${data.title}
+  ![License](https://img.shields.io/badge/License-${data.license}-${data.color})
 
   ## Table of Contents
   * [Description] (#description)
@@ -26,34 +14,34 @@ function generateMarkdown(data) {
   * [Languages] (#languages)
   * [Contact] (#contact)
   
-  <a name='description'></a>
+  <a name='#description'></a>
   ## Description
-  # ${data.description}
+  ${data.description}
 
   <a name='installation'></a>
   ## Installation
-  # ${data.installation}
+  ${data.installation}
 
   <a name='license'></a>
   ## License
-  # ${data.license}
+  ${data.license}
   
 
   <a name='contributors'></a>
   ## Contributors
-  # ${data.contributors}
+  ${data.contributors}
 
   <a name='testing'></a>
   ## Testing
-  # ${data.tests}
+  ${data.tests}
 
    <a name='languages'></a>
   ## Languages
-  # ${data.languages}
+  ${data.languages}
 
   <a name='contact'></a>
   ## Contact
-  # ${data.contact}
+  ${data.contact}
 `;
 }
 

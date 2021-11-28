@@ -1,7 +1,7 @@
 // Packages needed for this application
 const fs = require("fs");
 const inquirer = require("inquirer");
-const generateMarkdown = require("./utils/generateMarkdown");
+const generateMarkdown = require("./Develop/utils/generateMarkdown");
 
 // Array of questions for user input
 const questions = [
@@ -58,6 +58,11 @@ const questions = [
     type: "input",
     name: "license",
     message: "Please list any licenses used.",
+  },
+  {
+    type: "input",
+    name: "color",
+    message: "What color would you like your license badge?",
   },
   {
     type: "input",
