@@ -14,36 +14,35 @@ function generateMarkdown(data) {
   * [Languages] (#languages)
   * [Contact] (#contact)
   
-  <div id='description'/>
+  <a name="description"></a>
   ## Description
   ${data.description}
 
-  <a name='installation'></a>
+  <a name="installation"></a>
   ## Installation
   ${data.installation}
 
-  <a name='license'></a>
+  <a name="license"></a>
   ## License
   ${data.license}
   
 
-  <a name='contributors'></a>
+  <a name="contributors"></a>
   ## Contributors
   ${data.contributors}
 
-  <a name='testing'></a>
+  <a name="testing"></a>
   ## Testing
   ${data.tests}
 
-   <a name='languages'></a>
+   <a name="languages"></a>
   ## Languages
   ${data.languages}
 
-  <a name='contact'></a>
+  <a name="contact"></a>
   ## Contact
-  https://github.com/${data.github}
-  If you have any questions or would like to get in contact please email me at: ${data.contact}.
-
+  * If you have any questions or would like to get in contact please email me at: ${data.contact}. 
+  * Github: https://github.com/${data.github}
 `;
 }
 
