@@ -6,13 +6,13 @@ function generateMarkdown(data) {
   ![License](https://img.shields.io/badge/License-${data.license}-${data.color})
 
   ## Table of Contents
-  * [Description] (#description)
-  * [Installation] (#installation)
-  * [License] (#license)
-  * [Contributors] (#contributors)
-  * [Testing] (#tests)
-  * [Languages] (#languages)
-  * [Contact] (#contact)
+  * [Description](#description)
+  * [Installation](#installation)
+  * [License](#license)
+  * [Contributors](#contributors)
+  * [Testing](#tests)
+  * [Languages](#languages)
+  * [Contact](#contact)
   
   <a name="description"></a>
   ## Description
