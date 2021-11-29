@@ -7,6 +7,10 @@ You can quickly and easily generate a README file by using a command-line applic
 
 Your task is to create a command-line application that dynamically generates a professional README.md file from a user's input using the Inquirer package (Links to an external site.). Review the Guide to a Professional README (Links to an external site.) as a reminder of everything that a high-quality, professional README should contain.
 
+# Licenses
+
+![License](https://img.shields.io/badge/License-MIT-blue)
+
 # User Story
 
 AS A developer
@@ -43,7 +47,7 @@ THEN I am taken to the corresponding section of the README
 
 # Technical Skills
 
-- HTML- CSS- Javascript- Saving to local storage- Jquery / Bootstrap- Serverside API
+- Node.js
 
 # Video Demonstration
 
