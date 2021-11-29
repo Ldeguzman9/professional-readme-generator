@@ -1,43 +1,51 @@
+# Professional README Generator
 
-  
-  # l
-  ![License](https://img.shields.io/badge/License-MIT-red)
+GUIDELINES:
+When creating an open source project on GitHub, it’s important to have a high-quality README for the app. This should include what the app is for, how to use the app, how to install it, how to report issues, and how to make contributions—this last part increases the likelihood that other developers will contribute to the success of the project.
 
-  ## Table of Contents
-  * [Description](#description)
-  * [Installation](#installation)
-  * [License](#license)
-  * [Contributors](#contributors)
-  * [Testing](#tests)
-  * [Languages](#languages)
-  * [Contact](#contact)
-  
-  <a name="description"></a>
-  ## Description
-  l
+You can quickly and easily generate a README file by using a command-line application to generate one. This allows the project creator to devote more time working on the project.
 
-  <a name="installation"></a>
-  ## Installation
-  l
+Your task is to create a command-line application that dynamically generates a professional README.md file from a user's input using the Inquirer package (Links to an external site.). Review the Guide to a Professional README (Links to an external site.) as a reminder of everything that a high-quality, professional README should contain.
 
-  <a name="license"></a>
-  ## License
-  MIT
-  
+# User Story
 
-  <a name="contributors"></a>
-  ## Contributors
-  
+AS A developer
+I WANT a README generator
+SO THAT I can quickly create a professional README for a new project
 
-  <a name="testing"></a>
-  ## Testing
-  
+# Acceptance Criteria
 
-   <a name="languages"></a>
-  ## Languages
-  
+GIVEN a command-line application that accepts user input
+WHEN I am prompted for information about my application repository
+THEN a high-quality, professional README.md is generated with the title of my project and sections entitled Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions
+WHEN I enter my project title
+THEN this is displayed as the title of the README
+WHEN I enter a description, installation instructions, usage information, contribution guidelines, and test instructions
+THEN this information is added to the sections of the README entitled Description, Installation, Usage, Contributing, and TestsWHEN I choose a license for my application from a list of options
+THEN a badge for that license is added near the top of the README and a notice is added to the section of the README entitled License that explains which license the application is covered under
+WHEN I enter my GitHub username
+THEN this is added to the section of the README entitled Questions, with a link to my GitHub profile
+WHEN I enter my email address
+THEN this is added to the section of the README entitled Questions, with instructions on how to reach me with additional questions
+WHEN I click on the links in the Table of Contents
+THEN I am taken to the corresponding section of the README
 
-  <a name="contact"></a>
-  ## Contact
-  * If you have any questions or would like to get in contact please email me at: . 
-  * Github: https://github.com/l
+# README Generator Features:
+
+1. Prompted questions in order to fill out the skeleton of a README
+2. License badge generated at the top of the README.md
+3. README.md created!
+
+# README Generator Screen Shots
+
+- **Terminal**
+  ![Terminal Prompts](https://github.com/Ldeguzman9/professional-readme-generator/assets/images/terminal.png)
+
+# Technical Skills
+
+- HTML- CSS- Javascript- Saving to local storage- Jquery / Bootstrap- Serverside API
+
+# Video Demonstration
+
+https://watch.screencastify.com/v/plk1qJxdRNHdmvRRHSx6
+[How to create a Professional README](./readme-guide.md)
